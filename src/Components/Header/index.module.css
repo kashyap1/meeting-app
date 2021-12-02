@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  font-size: 3rem;
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  color: #ffffff;
+  background: #094b88;
+  font-weight: bolder;
+  box-shadow: 1px 6px 5px -3px rgba(187, 171, 171, 0.7);
+  -webkit-box-shadow: 1px 6px 5px -3px rgba(187, 171, 171, 0.7);
+  -moz-box-shadow: 1px 6px 5px -3px rgba(187, 171, 171, 0.7);
+}
+
+.nav {
+  font-size: 1rem;
+  margin-right: 16px;
+  color: #FFFFFF;
+}
+
+.nav__wrapper {
+  display: flex;
+}

@@ -1,0 +1,50 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.calendar__container {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar__header {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  width: 100%;
+  align-self: center;
+  border-top: #ebebeb 1px solid;
+  border-bottom: #ebebeb 1px solid;
+}
+
+.calendar__body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+
+.calendar__rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar__wrapper {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calendar__cell {
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  height: 56px;
+  display: flex;
+}

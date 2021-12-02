@@ -1,0 +1,47 @@
+.calendar__highlighted {
+  background: #F6F6F6 ;
+}
+
+.calendar__cell--highlighted::before {
+  background: #0C61CC;
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 2.5rem;
+  border-radius: 5px;
+}
+
+.calendar__cell {
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  height: 56px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.calendar__cell--disabled {
+  color: #b7a8a8;
+  cursor: unset;
+}
+
+.calendar__cell--active {
+  color: #f90d0d;
+  font-weight: 700;
+}
+
+.Information {
+  list-style: none;
+}
+
+.Information__container {
+  display: flex;
+  gap: 8px;
+}
+
+.Information__label {
+  font-weight: bold;
+  width: 80px
+}

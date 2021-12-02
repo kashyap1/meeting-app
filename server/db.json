@@ -1,0 +1,104 @@
+{
+  "meetings": [
+    {
+      "id": 1,
+      "name": "test-1",
+      "desc": "test desc",
+      "dates": "29-11-2021,05-12-2021",
+      "attendees": "test1@gmail.com,test2@gmail.com",
+      "userId": 1
+    },
+    {
+      "name": "meeting 2",
+      "desc": "desc",
+      "from": "26-11-2021",
+      "to": "27-11-2021",
+      "attendees": "test.it@gmail.com",
+      "userId": 1,
+      "dates": "26-11-2021,27-11-2021",
+      "id": 2
+    },
+    {
+      "name": "meeeting1",
+      "desc": "desc",
+      "from": "22-11-2021",
+      "to": "22-11-2021",
+      "attendees": "test@oracle.com",
+      "userId": 1,
+      "dates": "22-11-2021,22-11-2021",
+      "id": 3
+    },
+    {
+      "name": "meeting 3",
+      "desc": "desc",
+      "from": "21-11-2021",
+      "to": "21-11-2021",
+      "attendees": "oracle@gmail.com",
+      "userId": 1,
+      "dates": "21-11-2021,21-11-2021",
+      "id": 4
+    },
+    {
+      "name": "meeting 4",
+      "desc": "desc2",
+      "from": "30-11-2021",
+      "to": "30-11-2021",
+      "attendees": "oracle1@gmail.com",
+      "userId": 1,
+      "dates": "30-11-2021,30-11-2021",
+      "id": 5
+    },
+    {
+      "name": "Meeting 2",
+      "desc": "Desc",
+      "from": "15-12-2021",
+      "to": "17-12-2021",
+      "attendees": "test@oracle.com",
+      "userId": 1,
+      "dates": "15-12-2021,17-12-2021",
+      "id": 6
+    },
+    {
+      "name": "Meeting 6",
+      "desc": "desc",
+      "from": "19-12-2021",
+      "to": "19-12-2021",
+      "attendees": "john@gmail.com",
+      "userId": 1,
+      "dates": "19-12-2021,19-12-2021",
+      "id": 7
+    },
+    {
+      "name": "meeting 2",
+      "desc": "description11",
+      "from": "02-12-2021",
+      "to": "03-12-2021",
+      "attendees": "someone@oracle.com",
+      "userId": "1",
+      "dates": "02-12-2021,03-12-2021",
+      "id": 8
+    },
+    {
+      "name": "meeting 12",
+      "desc": "12",
+      "from": "12-12-2021",
+      "to": "12-12-2021",
+      "attendees": "somone@idontknow.com",
+      "userId": "1",
+      "dates": "12-12-2021,12-12-2021",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "password": "admin",
+      "userName": "admin"
+    },
+    {
+      "id": 2,
+      "password": "admin",
+      "userName": "test"
+    }
+  ]
+}
