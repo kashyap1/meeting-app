@@ -8,9 +8,10 @@ export default function Cell(props) {
   const modal = useRef(null);
   const { date, meeting, cellInd } = props;
   const navigate = useNavigate();
-  const [d, m] = date.split('-');
+  const [d, m, y] = date.split('-');
   const day = parseInt(d, 10);
   const month = parseInt(m, 10);
+  const year = parseInt(y, 10);
   const data = meeting[date];
   const {
     name, desc, attendees, dates
@@ -21,8 +22,8 @@ export default function Cell(props) {
   const dt = new Date();
   const currMonth = dt.getMonth();
   const currDate = dt.getDate();
-
-  cls = currDate === day ? `${cls} ${css['calendar__cell--active']}` : cls;
+  const currYear = dt.getFullYear();
+  cls = currDate === day && currMonth + 1 === month && currYear === year ? `${cls} ${css['calendar__cell--active']}` : cls;
   const isDisabledCls = currMonth + 1 !== month ? css['calendar__cell--disabled'] : '';
   const handleClick = () => {
     if (!data) {
