@@ -25,7 +25,7 @@ const Header = function () {
 
   return (
     <header className={css.header}>
-      <div>Calendar App</div>
+      <div>Meeting App</div>
       {nav}
     </header>
   );

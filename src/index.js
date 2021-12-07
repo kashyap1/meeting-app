@@ -2,13 +2,11 @@ import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import thunkMiddleware from 'redux-thunk';
+import { createStore } from 'redux';
 import rootReducer from './reducers';
 import App from './App';
 
-const middlewareEnhancer = applyMiddleware(thunkMiddleware);
-const store = createStore(rootReducer, undefined, middlewareEnhancer);
+const store = createStore(rootReducer);
 
 const rootElement = document.getElementById('root');
 
